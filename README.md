@@ -1,25 +1,14 @@
-# ReduxSimpleStarter
+# Mesq-Tube
 
-Interested in learning [Redux](https://www.udemy.com/react-redux/)?
+A youtube client made with ReactJS.
+You can check it live here: https://mesq-tube.herokuapp.com/
 
 ### Getting Started
 
-There are two methods for getting started with this repo.
-
-#### Familiar with Git?
-Checkout this repo, install dependencies, then start the gulp process with the following:
-
-```
-> git clone https://github.com/StephenGrider/ReduxSimpleStarter.git
-> cd ReduxSimpleStarter
-> npm install
-> npm start
-```
-
-#### Not Familiar with Git?
-Click [here](https://github.com/StephenGrider/ReactStarter/releases) then download the .zip file.  Extract the contents of the zip file, then open your terminal, change to the project directory, and:
-
-```
-> npm install
-> npm start
-```
+1 - Clone the project on your desired folder: $ git clone git@github.com:mesqfel/mesq-tube.git
+2 - Navigate to the folder: $ cd mesq-tube
+3 - Install dependencies: $ npm install
+4 - On file /mesq-tube/src/index.js place your Youtube API key on line "const API_KEY = 'YOUR_YOUTUBE_API_KEY_HERE';". You can get a Youtube API Key here: https://console.developers.google.com/apis
+5 - On folder /mesq-tube run: $ npm start
+6 - Visit http://localhost:8080/
+7 - If you have any trouble, email me: fe.mesquita88@gmail.com
